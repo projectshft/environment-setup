@@ -50,17 +50,25 @@ Or for windows users:
 copy nul index.html
 ```
 
-Now let's open this in Atom:
+Next, we'll want to open this up inside of a text-editor or IDE (integrated development environment).
+
+You may use any text-editor you wish, but we recommend either [VS Code](https://code.visualstudio.com/) or [Atom](https://atom.io/). This set-up will walk you though using Atom, but in the future, we'll switch over to using VS Code.
+
+So go to either site and install. Follow along if you're using Atom.
+
+To open our project in Atom, make sure you're in the `environment-fun` directory via your command-line and type:
 
 ```
 atom .
 ```
 
-Did you get an error? Let Aaron know and we'll debug. Of course you're welcome to google and figure it out yourself (which is what Aaron is probably going to do). If you don't have any errors, you're all good!
+Did you get an error? Let Aaron know on Monday and we'll debug. Of course you're welcome to google and figure it out yourself (which is what Aaron is probably going to do). If you don't have any errors, you're all good!
 
 ---
 
-## Checking `git`
+## Installing and Checking Git
+Next we'll install Git. Go [here](https://git-scm.com/downloads) and download it to your machine.
+
 We're not going to actually build anything or commit anything with `git` (today), but let's check that it works. In your command-line write:
 
 ```
@@ -71,7 +79,9 @@ If the response was something like, `Initialized empty Git repository in...` the
 
 ---
 
-## Checking node
+## Downloading and Checking Node
+Like we did with Git, we're going to download Node [here](https://nodejs.org/en/download/).
+
 Next, we're going to check and see if you have Node installed correctly. From your command-line type:
 
 ```
